@@ -1,3 +1,4 @@
+![CI](https://github.com/padpy/aml_rl/actions/workflows/ci.yml/badge.svg)
 # Advanced Machine Learning: Reinforcement Learning Project
 
 This project is our semester project for CSCI 5525 at the University of Minnesota. Our aim is to develop
