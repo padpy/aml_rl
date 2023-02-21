@@ -1,13 +1,4 @@
-# Pick-And-Place
+# Advanced Machine Learning: Reinforcement Learning Project
 
-Pick-And_Place is a reinforcement agent designed to learn the task of moving block from one place to another.
-
-# Usage
-
-## Loading dependencies
-It is highly advised to use a Python environment manager like `conda` or `virtualenv`.
-
-1. Create and activate your python environment
-1. Install dependencies
-    * `conda install --file requirements.txt
-    * `pip install -r requirements.txt`
+This project is our semester project for CSCI 5525 at the University of Minnesota. Our aim is to develop
+reiforcement learning algorthms for performing pick and place operations with a simulated robotic arm.
