@@ -18,5 +18,5 @@ If you see any style mistakes try to correct them, ignore them using comments or
 the code using `black`.
 
 ```bash
-black <file_path>
+make commit-check
 ```

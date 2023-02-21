@@ -18,11 +18,7 @@ reiforcement learning algorthms for performing pick and place operations with a 
 
 setup(
     name="https://github.com/padpy/aml_rl",
-    packages=[
-        package
-        for package in find_packages()
-        if package.startswith("https://github.com/padpy/aml_rl")
-    ],
+    packages=[package for package in find_packages() if package.startswith("https://github.com/padpy/aml_rl")],
     package_data={"stable_baselines3": ["py.typed", "version.txt"]},
     install_requires=[
         "gym==0.21",  # Fixed version due to breaking changes in 0.22
@@ -90,8 +86,7 @@ setup(
     author="Antonin Raffin",
     url="https://github.com/padpy/aml_rl",
     author_email="nicholas.padilla@npcomplete.io",
-    keywords="reinforcement-learning-algorithms reinforcement-learning machine-learning "
-    "gym openai",
+    keywords="reinforcement-learning-algorithms reinforcement-learning machine-learning " "gym openai",
     license="MIT",
     long_description=long_description,
     long_description_content_type="text/markdown",
