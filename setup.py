@@ -18,7 +18,11 @@ reiforcement learning algorthms for performing pick and place operations with a 
 
 setup(
     name="https://github.com/padpy/aml_rl",
-    packages=[package for package in find_packages() if package.startswith("https://github.com/padpy/aml_rl")],
+    packages=[
+        package
+        for package in find_packages()
+        if package.startswith("https://github.com/padpy/aml_rl")
+    ],
     package_data={"stable_baselines3": ["py.typed", "version.txt"]},
     install_requires=[
         "gym==0.21",  # Fixed version due to breaking changes in 0.22
