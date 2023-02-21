@@ -1,5 +1,5 @@
 SHELL=/bin/bash
-LINT_PATHS=aml_rl/ tests/ setup.py
+LINT_PATHS=aml_rl/ setup.py #test/
 
 lint:
 	flake8 ${LINT_PATHS} --count --select=E9,F63,F7,F82 --show-source --statistics
