@@ -1,0 +1,4 @@
+cd deps/panda-gym && git pull && cd -
+cd deps/stable-baselines3 && git pull && cd -
+cd deps/stable-baselines3-contrib && git pull && cd -
+cd deps/rl-baselines3-zoo && git pull && cd -

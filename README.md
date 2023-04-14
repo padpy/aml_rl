@@ -13,6 +13,12 @@ manager like virtualenv or conda.
 ./script/bootstrap
 ```
 
+## Updating Dependencies
+If there are changes to the dependencies then you can update all of them by runing `script/update`.
+```bash
+./script/update
+```
+
 ## Training
 In the scripts directory, there are examples of how to run training. `script/trainDQN` trains a DQN model on the
 PandaGraspDenseDiscrete-v3 task. To change the episode length, edit MAX_EPISODE_STEPS in
