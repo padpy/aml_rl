@@ -4,6 +4,19 @@
 This project is our semester project for CSCI 5525 at the University of Minnesota. Our aim is to develop
 reinforcement learning algorithms for performing pick and place operations with a simulated robotic arm.
 
+## Bootstrap
+To bootstrap, download this repository and run the `./script/bootstrap`. This installs the other project repositories
+required to perform training and installs them into your python environment. It is recommended to use a python environment
+manager like virtualenv or conda.
+
+```bash
+./script/bootstrap
+```
+
+## Training
+In the scripts directory, there are examples of how to run training. `script/trainDQN` trains a DQN model on the
+PandaGraspDenseDiscrete-v3 task. To change the episode length, edit MAX_EPISODE_STEPS in
+`deps/panda-gym/panda_gym/__init__.py`.
 
 ## Before you commit
 ### Linting and Style Check
