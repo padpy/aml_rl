@@ -10,7 +10,9 @@ required to perform training and installs them into your python environment. It 
 manager like virtualenv or conda.
 
 ```bash
+# Install dependencies
 ./script/bootstrap
+pip install -e .
 ```
 
 ## Updating Dependencies
