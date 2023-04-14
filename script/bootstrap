@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+mkdir -p deps
+git clone https://github.com/padpy/panda-gym deps/panda-gym
+git clone https://github.com/padpy/rl-baselines3-zoo deps/rl-baselines3-zoo
+git clone https://github.com/padpy/stable-baselines3 deps/stable-baselines3
+git clone https://github.com/padpy/stable-baselines3-contrib deps/stable-baselines3-contrib
+
+cd deps/panda-gym && pip install -e . && cd ../..
+cd deps/stable-baselines3 && pip install -e . && cd ../..
+cd deps/stable-baselines3-contrib && pip install -e . && cd ../..
+cd deps/rl-baselines3-zoo && pip install -e . && cd ../..

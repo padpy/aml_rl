@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python deps/rl-baselines3-zoo/train.py --algo td3 --env PandaGrasp-v3 -f logs/ -n 5000000
