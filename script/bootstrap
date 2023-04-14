@@ -10,3 +10,5 @@ cd deps/panda-gym && pip install -e . && cd ../..
 cd deps/stable-baselines3 && pip install -e . && cd ../..
 cd deps/stable-baselines3-contrib && pip install -e . && cd ../..
 cd deps/rl-baselines3-zoo && pip install -e . && cd ../..
+
+pip install -e .

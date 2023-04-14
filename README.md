@@ -12,7 +12,6 @@ manager like virtualenv or conda.
 ```bash
 # Install dependencies
 ./script/bootstrap
-pip install -e .
 ```
 
 ## Updating Dependencies
