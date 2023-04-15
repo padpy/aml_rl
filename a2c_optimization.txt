@@ -1,0 +1,18 @@
+Number of finished trials:  1000
+Best trial:
+Value:  -7.391444
+Params:
+    gamma: 0.99
+    normalize_advantage: False
+    max_grad_norm: 0.6
+    use_rms_prop: False
+    gae_lambda: 0.8
+    n_steps: 2048
+    lr_schedule: linear
+    learning_rate: 0.9229321974961522
+    ent_coef: 0.00011027498409472575
+    vf_coef: 0.5589589045729805
+    ortho_init: True
+    net_arch: medium
+    activation_fn: tanh
+Writing report to logs/a2c/report_PandaPickAndPlaceDense-v3_1000-trials-50000-random-median_1681249105

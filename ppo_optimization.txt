@@ -1,0 +1,17 @@
+Number of finished trials:  1000
+Best trial:
+Value:  -6.810365000000002
+Params:
+    batch_size: 32
+    n_steps: 1024
+    gamma: 0.99
+    learning_rate: 0.22605987646232095
+    ent_coef: 1.601559602923914e-08
+    clip_range: 0.3
+    n_epochs: 10
+    gae_lambda: 0.95
+    max_grad_norm: 1
+    vf_coef: 0.06199727730320104
+    net_arch: medium
+    activation_fn: tanh
+Writing report to logs/ppo/report_PandaPickAndPlaceDense-v3_1000-trials-50000-random-median_1681254004

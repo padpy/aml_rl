@@ -1,0 +1,16 @@
+Number of finished trials:  1000
+Best trial:
+Value:  -7.9735354
+Params:
+    gamma: 0.999
+    learning_rate: 6.628513845072675e-05
+    batch_size: 16
+    buffer_size: 1000000
+    exploration_final_eps: 0.13184863111527206
+    exploration_fraction: 0.30576828384933513
+    target_update_interval: 5000
+    learning_starts: 10000
+    train_freq: 256
+    subsample_steps: 1
+    net_arch: tiny
+Writing report to logs/dqn/report_PandaPickAndPlaceDenseDiscrete-v3_1000-trials-50000-random-median_1681279934
