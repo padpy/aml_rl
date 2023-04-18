@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-python deps/rl-baselines3-zoo/train.py --algo dqn --env MountainCar-v0 -tb tb-logs-dqn-reach-dense -f logs/ -n 5000000
