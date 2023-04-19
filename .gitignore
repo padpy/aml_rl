@@ -133,4 +133,4 @@ dmypy.json
 
 deps
 logs
-tb-logs
+tb-logs*
