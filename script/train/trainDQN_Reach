@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-python deps/rl-baselines3-zoo/train.py --algo dqn --env PandaReachDiscrete-v4 -tb tb-logs -f logs/ -n 100000
+python deps/rl-baselines3-zoo/train.py --algo dqn --env PandaReachDiscrete-v4 -tb tb-logs -f logs/

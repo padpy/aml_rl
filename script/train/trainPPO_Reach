@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-python deps/rl-baselines3-zoo/train.py --algo ppo --env PandaReach-v4 -tb tb-logs -f logs/ -n 5000000

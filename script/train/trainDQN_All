@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for env in PandaReachDiscrete-v4 PandaReachDenseDiscrete-v4 PandaGraspDiscrete-v3 PandaGraspDenseDiscrete-v3 PandaPickAndPlaceDiscrete-v3 PandaPickAndPlaceDenseDiscrete-v3
+do
+    python deps/rl-baselines3-zoo/train.py --algo dqn --env $env -tb tb-logs -f logs/ --log-interval 4
+done

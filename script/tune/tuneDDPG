@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-python deps/rl-baselines3-zoo/train.py --algo ddpg --env PandaPickAndPlaceDense-v3 -n 5000 -optimize --n-trials 1000 --n-jobs 16 --sampler random --pruner median --optimization-log-path logs/ppo_optimization.log
+python deps/rl-baselines3-zoo/train.py --algo ddpg --env PandaReach-v4 -n 50000 -optimize --n-trials 100 --n-jobs 16 --sampler random --pruner median --optimization-log-path logs/ppo_optimization.log

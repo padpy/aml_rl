@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-python deps/rl-baselines3-zoo/train.py --algo dqn --env PandaGraspDenseDiscrete-v3 -tb tb-logs -f logs/ -n 5000000
+python deps/rl-baselines3-zoo/train.py --algo dqn --env PandaGraspDenseDiscrete-v3 -tb tb-logs -f logs/
