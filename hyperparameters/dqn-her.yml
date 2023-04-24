@@ -1,0 +1,131 @@
+PandaReachDiscrete-v4:
+  n_timesteps: !!float 5e5
+  policy: 'MultiInputPolicy'
+  learning_rate: !!float 0.001
+  batch_size: 256
+  buffer_size: 1000000
+  learning_starts: 128
+  gamma: 0.99
+  target_update_interval: 1000
+  train_freq: 8
+  gradient_steps: -1
+  exploration_fraction: 0.2
+  exploration_initial_eps: 0.5
+  exploration_final_eps: 0.01
+  policy_kwargs: "dict(net_arch=[256, 256])"
+  replay_buffer_class: HerReplayBuffer
+  replay_buffer_kwargs: "dict(
+    online_sampling=True,
+    goal_selection_strategy='future',
+    n_sampled_goal=4
+  )"
+
+PandaReachDenseDiscrete-v4:
+  n_timesteps: !!float 5e5
+  policy: 'MultiInputPolicy'
+  learning_rate: !!float 0.001
+  batch_size: 256
+  buffer_size: 1000000
+  learning_starts: 256
+  gamma: 0.99
+  target_update_interval: 1000
+  train_freq: 128
+  gradient_steps: -1
+  exploration_fraction: 0.2
+  exploration_initial_eps: 0.5
+  exploration_final_eps: 0.01
+  policy_kwargs: "dict(net_arch=[256, 256])"
+  replay_buffer_class: HerReplayBuffer
+  replay_buffer_kwargs: "dict(
+    online_sampling=True,
+    goal_selection_strategy='future',
+    n_sampled_goal=4
+  )"
+
+PandaGraspDiscrete-v3:
+  n_timesteps: !!float 2e6
+  policy: 'MultiInputPolicy'
+  learning_rate: !!float 0.001
+  batch_size: 256
+  buffer_size: 1000000
+  learning_starts: 256
+  gamma: 0.99
+  target_update_interval: 1000
+  train_freq: 128
+  gradient_steps: -1
+  exploration_fraction: 0.5
+  exploration_initial_eps: 0.75
+  exploration_final_eps: 0.1
+  policy_kwargs: "dict(net_arch=[256, 256])"
+  replay_buffer_class: HerReplayBuffer
+  replay_buffer_kwargs: "dict(
+    online_sampling=True,
+    goal_selection_strategy='future',
+    n_sampled_goal=4
+  )"
+
+PandaGraspDenseDiscrete-v3:
+  n_timesteps: !!float 2e6
+  policy: 'MultiInputPolicy'
+  learning_rate: !!float 0.001
+  batch_size: 256
+  buffer_size: 1000000
+  learning_starts: 128
+  gamma: 0.99
+  target_update_interval: 1000
+  train_freq: 64
+  gradient_steps: -1
+  exploration_fraction: 0.5
+  exploration_initial_eps: 0.5
+  exploration_final_eps: 0.01
+  policy_kwargs: "dict(net_arch=[256, 256])"
+  replay_buffer_class: HerReplayBuffer
+  replay_buffer_kwargs: "dict(
+    online_sampling=True,
+    goal_selection_strategy='future',
+    n_sampled_goal=4
+  )"
+
+PandaPickAndPlaceDiscrete-v3:
+  n_timesteps: !!float 2e6
+  policy: 'MultiInputPolicy'
+  learning_rate: !!float 0.001
+  batch_size: 256
+  buffer_size: 1000000
+  learning_starts: 128
+  gamma: 0.99
+  target_update_interval: 1000
+  train_freq: 64
+  gradient_steps: -1
+  exploration_fraction: 0.5
+  exploration_initial_eps: 0.5
+  exploration_final_eps: 0.01
+  policy_kwargs: "dict(net_arch=[256, 256])"
+  replay_buffer_class: HerReplayBuffer
+  replay_buffer_kwargs: "dict(
+    online_sampling=True,
+    goal_selection_strategy='future',
+    n_sampled_goal=4
+  )"
+
+PandaPickAndPlaceDenseDiscrete-v3:
+  n_timesteps: !!float 2e6
+  policy: 'MultiInputPolicy'
+  learning_rate: !!float 0.001
+  batch_size: 256
+  buffer_size: 1000000
+  learning_starts: 128
+  gamma: 0.99
+  target_update_interval: 1000
+  train_freq: 64
+  gradient_steps: -1
+  exploration_fraction: 0.5
+  exploration_initial_eps: 0.5
+  exploration_final_eps: 0.01
+  policy_kwargs: "dict(net_arch=[256, 256])"
+  replay_buffer_class: HerReplayBuffer
+  replay_buffer_kwargs: "dict(
+    online_sampling=True,
+    goal_selection_strategy='future',
+    n_sampled_goal=4
+  )"
