@@ -4,6 +4,15 @@
 This project is our semester project for CSCI 5525 at the University of Minnesota. Our aim is to develop
 reinforcement learning algorithms for performing pick and place operations with a simulated robotic arm.
 
+## Additional repositories used in this project:
+https://github.com/padpy/panda-gym deps/panda-gym
+
+https://github.com/padpy/rl-baselines3-zoo
+
+https://github.com/padpy/stable-baselines3
+
+https://github.com/padpy/stable-baselines3-contrib
+
 ## Bootstrap
 To bootstrap, download this repository and run the `./script/bootstrap`. This installs the other project repositories
 required to perform training and installs them into your python environment. It is recommended to use a python environment
