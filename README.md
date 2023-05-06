@@ -3,9 +3,11 @@
 
 This project is our semester project for CSCI 5525 at the University of Minnesota. Our aim is to develop
 reinforcement learning algorithms for performing pick and place operations with a simulated robotic arm.
+This repository contains autmation used in creating the workspace and running training. The repositories
+for the implementation of the training environments and algorithms used are listed below.
 
 ## Additional repositories used in this project:
-https://github.com/padpy/panda-gym deps/panda-gym
+https://github.com/padpy/panda-gym
 
 https://github.com/padpy/rl-baselines3-zoo
 
